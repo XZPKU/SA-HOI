@@ -3,13 +3,23 @@
 ## Dependencies
 
 ### 1. conda package install
-`conda install -r requirements.txt`
+```
+conda create -n pia
+
+conda activate pia
+
+conda install python=3.8 pytorch==1.11.0 torchvision==0.12.0 cudatoolkit=11.3 -c pytorch
+
+pip install diffusers["torch"]
+
+conda install -r requirements.txt
+```
 ### 2. Other tools
 install detectron2 following [Detectron2](https://github.com/facebookresearch/detectron2)
 
 install mmpose following [mmpose](https://github.com/open-mmlab/mmpose)
 
-### 3. Specifically, for evaluation, please follow [ADA-CM](https://github.com/ltttpku/ADA-CM?tab=readme-ov-file) to prepare another enviroment for HOIF calculation.
+### 3. Specifically, for evaluation, please follow [ADA-CM](https://github.com/ltttpku/ADA-CM?tab=readme-ov-file) to prepare another enviroment [pocket](https://github.com/fredzzhang/pocket) for HOIF calculation.
 ## Download pre-trained Diffusion weight 
 Download from [SD-v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 
@@ -18,7 +28,7 @@ Download from [SD-v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 ```
 python pia_inference.py --prompt 'a photo of a person riding a horse' --seed 42
 ```
-### Itertive Refinement inference
+### Iterative Refinement inference
 ```
 python iir_inference.py --hoi_path './kite/loop/round_0.png' --prompt 'a photo of a person holding a kite' 
 ```
