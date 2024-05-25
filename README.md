@@ -115,10 +115,10 @@ python racc.py --hoi_type animal --model pia
 |  ----  | ----  | ----| ---- |  ---- | ----| ----|
 | SD  | H-O |  52.95  | 2.878    |16.88 | 13.40 |99.39|
 | PIA | H-O |   56.15   | 2.716  |16.82 | 13.03|99.48|
-| SD  | H-A | 63.15   | 1.950    |      |      |  62.22   |
-| PIA | H-A |  66.28  | 1.801    |      |      |   62.43  |
-| SD  | H-H | 59.47   |  3.544   |12.20|12.92|      |
-| PIA | H-H |  62.16  |  3.323   |10.96|12.42|      |
+| SD  | H-A | 63.15   | 1.950    |    13.37  |  16.90    |  62.22   |
+| PIA | H-A |  66.28  | 1.801    |    13.51  |   16.65   |   62.43  |
+| SD  | H-H | 59.47   |  3.544   |12.20|12.92|    99.2  |
+| PIA | H-H |  62.16  |  3.323   |10.96|12.42|     99.6 |
 
 For HOIF evaluation, alter to the environment [pocket](https://github.com/fredzzhang/pocket) or follow the instructions in [ADA-CM](https://github.com/ltttpku/ADA-CM?tab=readme-ov-file) to install, then run the instructions
 ```
