@@ -60,6 +60,9 @@ dataset
    |-----|-human
    |        |-sd
    |        |-pia
+   |-----|-human
+   |        |-sd
+   |        |-pia
 ```
 ## Evaluation
 ### 1. sample images 
