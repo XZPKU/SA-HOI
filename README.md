@@ -68,9 +68,9 @@ dataset
 ### 1. sample images 
 For image sampling, use following instrcutions:
 ```
-python sample.py --num NUMBER --type connect --data_path DATA_PATH
-python sample.py --num NUMBER --type human --data_path DATA_PATH
-python sample.py --num NUMBER --type animal --data_path DATA_PATH
+python sample.py --num 50 --type connect --data_path DATA_PATH
+python sample.py --num 50 --type human --data_path DATA_PATH
+python sample.py --num 50 --type animal --data_path DATA_PATH
 ```
 ### 2. utilizing following different instructions for evaluation
 For following evaluation, change the data_path to your data path accordingly
