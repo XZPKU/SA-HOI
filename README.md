@@ -90,6 +90,7 @@ python fid.py --distance_type kid --hoi_type animal --syn_model pia
 python fid.py --distance_type kid --hoi_type human --syn_model sd
 python fid.py --distance_type kid --hoi_type human --syn_model pia
 ```
+The performance are different from numbers reported in the paper when the seeds for generation changes. For reproduction, we provide one set of seeds in ./dataset, and the performance for provided seeds are reported in following table. 
 |     | Scenario| FID  | KID(10^-2) |
 |  ----  | ----  | ----| ---- |
 | SD  | H-O |  76.44  | 2.878    |
