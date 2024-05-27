@@ -125,7 +125,7 @@ python racc.py --hoi_type human --model pia
 python racc.py --hoi_type animal --model sd
 python racc.py --hoi_type animal --model pia
 ``` 
-|     | Scenario| PCS(Body)  | PDD(Body) | HODD(Body) |HODD(Hand)| R-Acc A@5 |HOIF |
+|     | Scenario| PCS(Body)10^-2  | PDD(Body)10^-2 | HODD(Body)10^-2 |HODD(Hand)10^-2| R-Acc A@510^-2 |HOIF |
 |  ----  | ----  | ----| ---- |  ---- | ----| ----| ---- |
 | SD  | H-A | 63.15   | 1.950    |    13.37  |  16.90    |  62.22   | 68.41 |
 | PIA | H-A |  66.28  | 1.801    |    13.51  |   16.65   |   62.43  | 69.19|
