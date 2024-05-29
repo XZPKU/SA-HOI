@@ -53,7 +53,7 @@ python collect_images.py --data_type train --hoi_type animal --num 200 --data_pa
 ```
 Change the root image_root_pth, config_pth and data_path to your own path, and the generated dataset should be organized as
 the dataset should be organized as
-```
+
 ```
 dataset
    |-----|-connect
@@ -67,7 +67,7 @@ dataset
    |              |-hoi_id
 ```
 
-```
+
 ## Evaluation
 ### 1. sample images 
 For image sampling, use following instrcutions:
