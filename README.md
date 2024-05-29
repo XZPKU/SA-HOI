@@ -94,7 +94,7 @@ For following evaluation, change the data_path to your data path accordingly
 
 For FID,KID evaluation
 ```
-python fid.py --distance_type fid --hoi_type connect --syn_model sd
+python fid.py --distance_type fid --hoi_type connect --syn_model sd --data_root GEN_DATA_PATH --real_data_root HICO_DATA_PATH
 python fid.py --distance_type fid --hoi_type connect --syn_model pia
 python fid.py --distance_type fid --hoi_type animal --syn_model sd
 python fid.py --distance_type fid --hoi_type animal --syn_model pia
