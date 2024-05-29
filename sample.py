@@ -111,7 +111,7 @@ def sample_image(seed,hoi_type,hoi_idx,prompt,data_path):
 parser =  argparse.ArgumentParser()
 parser.add_argument('--type',type=str,default='animal')
 parser.add_argument('--num',type=int,default=50)
-parser.add_argument('--data_path',type=str,default='/scratch/yangdejie/xz/ReVersion/clean_hoi')
+parser.add_argument('--data_path',type=str)
 parser.add_argument('--seed',type=bool,default=True)
 args = parser.parse_args()
 if args.type=='animal':
@@ -128,9 +128,9 @@ if args.seed:
         all_seeds = json.load(f)
     for hoi_idx in configs.keys():
         prompt = configs[hoi_idx]
-        seed_idx = all_seeds[hoi_idx]
+        seed_idx = all_seeds[str(hoi_idx)]
         for seed in seed_idx:
-            sample_image(seed,hoi_type,hoi_idx,prompt,data_path=args.data_path)
+            sample_image(int(seed),hoi_type,hoi_idx,prompt,data_path=args.data_path)
         print(f'finish generating images for {hoi_idx} : {prompt}.\n')
 
 else:
