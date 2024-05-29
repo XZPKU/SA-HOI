@@ -9,8 +9,8 @@ import json
 import argparse
 from hoi_configs.animal import animal_idx
 from hoi_configs.connect import connect_idx
-from Visualizer.visualizer import get_local
-get_local.activate()
+# from Visualizer.visualizer import get_local
+# get_local.activate()
 from PIL import Image
 from tqdm.auto import tqdm
 from diffusers.pipelines.stable_diffusion import StableDiffusionPipeline
