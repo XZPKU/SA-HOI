@@ -139,8 +139,8 @@ python racc.py --hoi_type connect --model sd
 python racc.py --hoi_type connect --model pia
 python racc.py --hoi_type human --model sd
 python racc.py --hoi_type human --model pia
-python racc.py --hoi_type animal --model sd
-python racc.py --hoi_type animal --model pia
+python racc.py --hoi_type animal --model sd -k 5
+python racc.py --hoi_type animal --model pia -k 5
 ``` 
 |     | Scenario| PCS(Body)10^-2  | PDD(Body)10^-2 | HODD(Body)10^-2 |HODD(Hand)10^-2| R-Acc A@510^-2 |HOIF |
 |  ----  | ----  | ----| ---- |  ---- | ----| ----| ---- |
