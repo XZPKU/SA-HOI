@@ -135,10 +135,10 @@ python hodd.py --type animal
 python hodd.py --type human 
 
 #metric racc
-python racc.py --hoi_type connect --model sd
-python racc.py --hoi_type connect --model pia
-python racc.py --hoi_type human --model sd
-python racc.py --hoi_type human --model pia
+python racc.py --hoi_type connect --model sd -k 5
+python racc.py --hoi_type connect --model pia -k 5
+python racc.py --hoi_type human --model sd -k 5
+python racc.py --hoi_type human --model pia -k 5
 python racc.py --hoi_type animal --model sd -k 5
 python racc.py --hoi_type animal --model pia -k 5
 ``` 
