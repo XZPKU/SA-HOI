@@ -1,4 +1,4 @@
-# PIA-HOI:Pose and Interaction Aware Human Object Interaction Image Generation
+# SA-HOI:Semantic-Aware Human Object Interaction Image Generation
 
 ## Dependencies
 
